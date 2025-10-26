@@ -1,0 +1,27 @@
+c:\Users\OWNER\Programmering\kids_invisible_friends_db\.prettierrc.json# Bygg- och distributionsmappar
+dist
+build
+coverage
+
+# Node-moduler
+node_modules
+
+# Låsta filer och långa textfiler
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Konfigfiler som inte ska formatteras
+.eslintrc.js
+eslint.config.js
+vite.config.ts
+
+# Genererade filer / dokumentation
+docs
+CHANGELOG.md
+
+# Environment- och hemliga filer
+.env
+.env.*
+# prisma
+/src/generated/prisma

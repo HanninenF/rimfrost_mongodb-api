@@ -1,0 +1,5 @@
+{
+  "eslint.useFlatConfig": true,
+  "eslint.workingDirectories": [{ "directory": "root", "changeProcessCWD": true }],
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"]
+}
